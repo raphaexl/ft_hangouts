@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DisplayActivity">
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:stretchColumns="1, 3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dip">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_span="4"
+                    android:gravity="center_horizontal"
+                    android:text="@string/info_contact"
+                    android:textColor="#adadad"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/first_name"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_name_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="BATCHASSI"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/last_name"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_surname_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="Essossolam"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/tel"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_phone_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="+212 633 512 709"
+                    android:textColor="#000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/mail"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_email_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="xor@gmail.com"
+                    android:textColor="#000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/about"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_about_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="Student in 1337"
+                    android:textColor="#000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/address"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/display_address_txt"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_span="3"
+                    android:background="#BEB9C8"
+                    android:padding="5dp"
+                    android:text="Rue Marrakech, Khouribga, Morroco"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <Button
+                    android:id="@+id/make_call_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/make_call_contact"
+                    android:textSize="12sp"
+                    android:singleLine="true"/>
+                <Button
+                    android:id="@+id/message_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:singleLine="true"
+                    android:text="@string/message_contact" />
+
+                <Button
+                    android:id="@+id/edit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:text="@string/edit_contact"
+                    android:singleLine="true"/>
+
+            </TableRow>
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

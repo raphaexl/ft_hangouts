@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestionnaire de Contacts</string>
+    <string name="add_contact">Nouveau Contact</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="tel">Tél</string>
+    <string name="mail">E-mail</string>
+    <string name="about">À propos</string>
+    <string name="address">Adresse</string>
+    <string name="save_contact">Enregistrer</string>
+    <string name="update_contact">Mettre a jour</string>
+    <string name="delete_contact">Supprimer</string>
+    <string name="call_contact">Appeler</string>
+    <string name="retry_call_contact">Ressayer</string>
+    <string name="message_contact">Message</string>
+    <string name="edit_contact">Modifier</string>
+    <string name="remove_contact">Supprimer</string>
+    <string name="info_contact">Details</string>
+    <string name="select_color">Choisir une Couleur</string>
+    <string name="ok_button_label">Oui</string>
+    <string name="no_button_label">Non</string>
+    <string name="cancel_button_label">Annuler</string>
+    <string name="no_contact">Vous n\'avez aucun contact</string>
+    <string name="make_call_contact">Appeler</string>
+    <string name="select_language">Choisir une langue</string>
+    <string name="me">Vous</string>
+    <string name="delete_all_title">Supprimer Tout</string>
+    <string name="delete_all_msg">Etes-vous sur de vouloir supprimer tout les contacts</string>
+    <string name="delete_row_title">Supprimer</string>
+    <string name="delete_row_msg">Etes-vous sur de vouloir supprimer</string>
+    <string name="menu_change_language">Changer de langue</string>
+    <string name="menu_header_color">Changer la Couleur du header</string>
+    <string name="menu_delete_all">Tout Supprimer</string>
+</resources>
